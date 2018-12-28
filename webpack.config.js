@@ -2,6 +2,7 @@ var path = require('path')
 
 module.exports = {
   entry: './src/game.js',
+  mode: 'development',
   devServer: {
     contentBase: [path.join(__dirname, 'dist'), path.join(__dirname, 'static')],
     compress: true,
