@@ -1,4 +1,5 @@
 node_modules
 dist
-static/audio
+static/audio/*.wav
+static/audio/*.flac
 *.code-workspace
